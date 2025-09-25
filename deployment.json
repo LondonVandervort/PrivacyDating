@@ -1,0 +1,15 @@
+{
+  "network": "sepolia",
+  "contractAddress": "0x42955a0528bc9e91a812a603d3dd4d2c48455b45",
+  "deployerAddress": "configured",
+  "deploymentTime": "2024-12-19T00:00:00.000Z",
+  "contractName": "PrivateDating",
+  "etherscanUrl": "https://sepolia.etherscan.io/address/0x42955a0528bc9e91a812a603d3dd4d2c48455b45",
+  "description": "隐私约会平台 - 基于Zama FHE的机密交友系统",
+  "features": [
+    "同态加密用户资料",
+    "隐私匹配算法",
+    "加密聊天系统",
+    "匿名兼容性评分"
+  ]
+}

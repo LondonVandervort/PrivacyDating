@@ -1,0 +1,38 @@
+{
+  "name": "private-dating-platform",
+  "version": "1.0.0",
+  "description": "隐私约会平台 - 基于Zama FHE的机密交友系统",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "deploy:auto": "npx hardhat run scripts/deploy-and-configure.js --network sepolia",
+    "deploy:auto:local": "npx hardhat run scripts/deploy-and-configure.js --network localhost",
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean",
+    "dev": "npx http-server public -p 8080 -c-1 --cors",
+    "start": "npx http-server public -p 1033 -c-1 --cors"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "smart-contracts",
+    "privacy",
+    "dating",
+    "fhe",
+    "zama"
+  ],
+  "author": "Privacy Dating Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "^0.2.0",
+    "ethers": "^6.8.0"
+  }
+}
