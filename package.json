@@ -3,15 +3,8 @@
   "version": "1.0.0",
   "description": "FHVM Privacy-preserving Dating Platform - Secure matching using Fully Homomorphic Encryption",
   "main": "index.html",
-  "homepage": "https://fhvm-privacy-dating-dapp.vercel.app",
   "scripts": {
-    "dev": "npx http-server . -p 3000 -c-1 --cors",
-    "build": "echo 'Static build - no build step required'",
-    "start": "npx http-server . -p 3000 -c-1 --cors",
-    "compile": "npx hardhat compile",
-    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
-    "test": "npx hardhat test",
-    "node": "npx hardhat node"
+    "build": "echo 'Static build complete'"
   },
   "keywords": [
     "blockchain",
@@ -26,23 +19,5 @@
     "decentralized"
   ],
   "author": "FHVM Developer",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/fhvm-privacy-dating-dapp.git"
-  },
-  "devDependencies": {
-    "@fhevm/hardhat-plugin": "0.0.1-3",
-    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
-    "hardhat": "^2.19.0",
-    "http-server": "^14.1.1"
-  },
-  "dependencies": {
-    "@fhevm/solidity": "^0.8.0",
-    "dotenv": "^16.3.1"
-  },
-  "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=8.0.0"
-  }
+  "license": "MIT"
 }
